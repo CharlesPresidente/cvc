@@ -12,6 +12,9 @@ import { DateDevolutionComponent } from './components/date-devolution/date-devol
 import { DateSourceComponent } from './components/date-source/date-source.component';
 import { EconomyComponent } from './components/economy/economy.component';
 import { SearchButtonComponent } from './components/search-button/search-button.component';
+import { NumberPagesComponent } from './components/number-pages/number-pages.component';
+import { OrderComponent } from './components/order/order.component';
+import { SelectCoinComponent } from './components/select-coin/select-coin.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { SearchButtonComponent } from './components/search-button/search-button.
     DateDevolutionComponent,
     DateSourceComponent,
     EconomyComponent,
-    SearchButtonComponent
+    SearchButtonComponent,
+    NumberPagesComponent,
+    OrderComponent,
+    SelectCoinComponent
   ],
   imports: [
     BrowserModule
