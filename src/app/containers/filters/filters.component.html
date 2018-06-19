@@ -1,3 +1,26 @@
 <section class="filters">
-  filtros
+  <form action="">
+    <label for="placeSource">{{placeSource}}</label>
+    <app-place-source id="placeSource"></app-place-source>
+
+    <div class="otherPlaceLine">
+      <input checked type="checkbox" name="" value="" (click)="checkbox()">
+      <p>{{otherPlace}}</p>
+    </div>
+
+    <div *ngIf="otherPlaceDevolution">
+      <label for="placeDevolution">{{placeDevolution}}</label>
+      <app-place-devolution id="placeDevolution"></app-place-devolution>
+    </div>
+
+    <label for="source">{{source}}</label>
+    <app-date-source id="source"></app-date-source>
+
+    <label for="devolution">{{devolution}}</label>
+    <app-date-devolution id="devolution"></app-date-devolution>
+
+    <app-economy></app-economy>
+
+    <app-search-button></app-search-button>
+  </form>
 </section>

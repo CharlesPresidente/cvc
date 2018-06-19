@@ -10,11 +10,16 @@
 
 @media (min-width: 768px) {
   .card-itens {
-    width: calc(100% - 30% - 24px);
+    width: calc(100% - 304px);
     margin-top: 24px;
     margin-left: 24px;
   }
 }
 
 @media (min-width: 1280px) {
+  .card-itens {
+    width: calc(100% - 304px);
+    margin-top: 24px;
+    margin-left: 24px;
+  }
 }
