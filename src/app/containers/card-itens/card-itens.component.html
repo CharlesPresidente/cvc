@@ -1,3 +1,16 @@
 <section class="card-itens">
-  Itens
+  <div class="item" *ngFor="let item of itens">
+    <img class="photo" src="{{item.photo}}" alt="{{item.name}}">
+
+    <div class="discount" *ngIf="item.discount.have">
+      <p>{{item.discount.text}}</p>
+      <p>{{item.discount.value}}</p>
+    </div>
+
+    <img class="operator" src="{{item.operator}}" alt="">
+
+    <div class="details">
+
+    </div>
+  </div> 
 </section>

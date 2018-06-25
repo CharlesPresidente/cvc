@@ -15,6 +15,11 @@ import { SearchButtonComponent } from './components/search-button/search-button.
 import { NumberPagesComponent } from './components/number-pages/number-pages.component';
 import { OrderComponent } from './components/order/order.component';
 import { SelectCoinComponent } from './components/select-coin/select-coin.component';
+import { CardPhotoComponent } from './components/card-photo/card-photo.component';
+import { CardDetailsComponent } from './components/card-details/card-details.component';
+import { CardMoreComponent } from './components/card-more/card-more.component';
+import { CardPerfilComponent } from './components/card-perfil/card-perfil.component';
+import { CardPaymentComponent } from './components/card-payment/card-payment.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,12 @@ import { SelectCoinComponent } from './components/select-coin/select-coin.compon
     SearchButtonComponent,
     NumberPagesComponent,
     OrderComponent,
-    SelectCoinComponent
+    SelectCoinComponent,
+    CardPhotoComponent,
+    CardDetailsComponent,
+    CardMoreComponent,
+    CardPerfilComponent,
+    CardPaymentComponent
   ],
   imports: [
     BrowserModule
